@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android Nanodegree Portfolio</string>
+    <string name="text_view">APPS!!</string>
+    <string name="spotify_button">Spotify Streamer</string>
+    <string name="football_app">Scores</string>
+    <string name="lib_app">Library</string>
+    <string name="build_app">Build It</string>
+    <string name="reader_app">XYZ Reader</string>
+    <string name="capstone_app">Capstone</string>
+</resources>

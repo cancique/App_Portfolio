@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_800"
+    android:touchscreenBlocksFocus="false"
+    android:textAlignment="center"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_400"
+        android:padding="30dp"
+        android:fontFamily="sans"
+        android:text="@string/text_view"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/label_head"
+        android:layout_marginBottom="6dp"
+        android:background="#bb545459" />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="@string/spotify_button"
+        android:id="@+id/streamer_app"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@color/green_300"
+        android:layout_marginBottom="2dp"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="@string/football_app"
+        android:id="@+id/football_app"
+        android:layout_gravity="center"
+        android:background="@color/green_500"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/lib_app"
+        android:id="@+id/score_app"
+        android:textAlignment="center"
+        android:background="@color/green_700"
+        android:layout_marginBottom="2dp"
+        android:enabled="true" />
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="@string/build_app"
+        android:id="@+id/build_app"
+        android:layout_gravity="center"
+        android:background="@color/blue_700"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="@string/reader_app"
+        android:id="@+id/reader_app"
+        android:layout_gravity="center"
+        android:background="@color/blue_A400"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="@string/capstone_app"
+        android:id="@+id/capstone_app"
+        android:layout_gravity="center"
+        android:background="@color/blue_300"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
